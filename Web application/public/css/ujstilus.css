@@ -1,0 +1,224 @@
+/* #region Header stilus eleje */
+body {
+    background: linear-gradient(#26639B, #0f9c7e);
+    min-height: 100vh;
+    font-family: Cambria;
+    scrollbar-color: black transparent;
+    scrollbar-width: thin;
+}
+
+@font-face {
+    font-family: poppinsown;
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
+.navbar-nav a {
+    color: #000;
+    text-shadow: -1px -1px 0 #16C29D, 1px -1px 0 #16C29D, -1px 1px 0 #16C29D, 1px 1px 0 #16C29D; /* https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+    font-family: poppinsown;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.navbar-nav a:hover, a:active{
+    color: grey;
+}
+
+.dropdown-menu a {
+    color: #0f9c7e;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+.navbar-brand {
+    color: #000;
+    text-shadow: -1px -1px 0 #16C29D, 1px -1px 0 #16C29D, -1px 1px 0 #16C29D, 1px 1px 0 #16C29D;
+    font-size: 30px;
+    font-family: poppinsown;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header_gomb {
+    font-family: poppinsown;
+
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+/* #endregion Header stilus vege */
+
+
+/* #region Index stilus */
+.carousel-item {
+    font-family: poppinsown;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bold;
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.carousel-caption {
+    bottom: 220px;
+    letter-spacing: 1px;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top: 20px;
+    font-family: poppinsown;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppinsown;
+
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #0f9c7e;
+    margin-top: 13px;
+    text-decoration: none;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+/* #endregion Index stilus vége */
+
+
+/* #region Alap beállítások Összes mas oldalra vonatkozo stilus */
+
+.default_setup {
+    padding-top: 5%;
+    color: black;
+    font-family: poppinsown;
+    font-weight: bold;
+
+
+}
+
+.default_setup a{
+    text-decoration: none;
+    color: #0f9c7e;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.default_setup a:hover, a:active {
+    color: white;
+}
+
+
+.default_title h2 {
+    text-align: center;
+    color: #16C29D;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-bottom: 20px;
+}
+
+.default_kepsetup {
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* #endregion Alap beállítások Összes mas oldalra vonatkozo stilus vége*/
+
+
+/* #region Kapcsoalt Stílus*/
+.kapcsolat h6 {
+    text-align: center;
+    font-size: 20px;
+    color: #0F9C7E;
+    padding-bottom: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.kapcsolat p {
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+}
+
+/* #endregion Kapcsoalt Stílus vége*/
+
+
+/* #region Formokra vonatkozó formázás */
+
+.kartya_stilus {
+    background-color: #16C29D;
+    font-family: poppinsown;
+    font-weight: bold;
+    text-align: center;
+}
+
+.adatok {
+    text-align: center;
+}
+
+.kartya_stilus h5 {
+    font-size: 25px;
+}
+
+/* #endregion */
+
+/* #region Formokra vonatkozó formázás */
+
+.reszletek_img{
+
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.default_jelentkezes{
+    text-align: center;
+}
+/* #endregion */
+
+.navbar_scrolled{
+    background-color: #16C29D;
+
+
+}
+
+.navbar_not_scrolled{
+    background-color: transparent;
+
+
+}
+textarea {
+    resize: none;
+}
+
+.leirasok{
+    text-align: center;
+    word-break: break-word;
+    margin-right: auto;
+    margin-left: auto;
+    white-space: pre-line
+}
